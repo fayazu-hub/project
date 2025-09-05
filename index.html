@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">FashionStore</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="#categories" class="dropdown-toggle">Categories <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#" data-category="All">All Products</a>
+                        <a href="#" data-category="Men's Wear">Men's Wear</a>
+                        <a href="#" data-category="Women's Wear">Women's Wear</a>
+                        <a href="#" data-category="Kids' Wear">Kids' Wear</a>
+                    </div>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+  <!-- In index.html, modify the hero section -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>New Collection 2026</h1>
+        <p>Discover our latest fashion trends</p>
+        <a href="#shop" class="cta-button">Shop Now</a>
+    </div>
+    <img src="Main-Banner.jpeg" alt="Fashion Store Banner" class="hero-banner">
+</section>
+    <section class="products" id="shop">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="product-container">
+                </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                         <li><a href="#" data-category="Men's Wear">Men's Wear</a></li>
+                        <li><a href="#" data-category="Women's Wear">Women's Wear</a></li>
+                        <li><a href="#" data-category="Kids' Wear">Kids' Wear</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <p>Email: fayazu.com</p>
+                    <p>Phone: +923409793390 </p>
+                </div>
+                <div class="admin-login">
+                    <a href="admin.html">Admin Login</a>
+                </div>
+            </div>
+            <p>&copy; 2025 Fashion Store</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
